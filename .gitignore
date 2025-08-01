@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# C extensions
+*.c
+*.cpp
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# Pipenv / Poetry
+Pipfile.lock
+poetry.lock
+
+# Distribution / packaging
+build/
+dist/
+*.egg
+*.whl
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+test-results.xml
+*.cover
+*.py,cover
+pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# VS Code / IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+
+# SQLite / local DB
+*.sqlite3
+*.db
+
+# Migrations (optional, if generated dynamically)
+**/migrations/
+**/__pycache__/
+
+# Gunicorn / Uvicorn PID files
+*.pid
